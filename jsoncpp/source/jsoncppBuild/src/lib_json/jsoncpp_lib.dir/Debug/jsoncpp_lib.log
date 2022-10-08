@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp/src/lib_json/CMakeLists.txt
+  json_reader.cpp
+  json_value.cpp
+  json_writer.cpp
+  正在生成代码...
+    正在创建库 E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/lib/Debug/jsoncpp.lib 和对象 E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/lib/Debug/jsoncpp.exp
+  jsoncpp_lib.vcxproj -> E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\bin\Debug\jsoncpp.dll

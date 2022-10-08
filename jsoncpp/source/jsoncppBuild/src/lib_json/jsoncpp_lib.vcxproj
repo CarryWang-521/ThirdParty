@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3D2FBF3B-C6FF-3A28-BDA3-6D5D2D022C69}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>jsoncpp_lib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">jsoncpp_lib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">jsoncpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">jsoncpp_lib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">jsoncpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">jsoncpp_lib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">jsoncpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">jsoncpp_lib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">jsoncpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;JSON_DLL_BUILD;CMAKE_INTDIR="Debug";jsoncpp_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;JSON_DLL_BUILD;CMAKE_INTDIR=\"Debug\";jsoncpp_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/lib/Debug/jsoncpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/bin/Debug/jsoncpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;JSON_DLL_BUILD;CMAKE_INTDIR="Release";jsoncpp_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;JSON_DLL_BUILD;CMAKE_INTDIR=\"Release\";jsoncpp_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/lib/Release/jsoncpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/bin/Release/jsoncpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;JSON_DLL_BUILD;CMAKE_INTDIR="MinSizeRel";jsoncpp_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;JSON_DLL_BUILD;CMAKE_INTDIR=\"MinSizeRel\";jsoncpp_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/lib/MinSizeRel/jsoncpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/bin/MinSizeRel/jsoncpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;JSON_DLL_BUILD;CMAKE_INTDIR="RelWithDebInfo";jsoncpp_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;JSON_DLL_BUILD;CMAKE_INTDIR=\"RelWithDebInfo\";jsoncpp_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\..\..\include;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/lib/RelWithDebInfo/jsoncpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/bin/RelWithDebInfo/jsoncpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp/src/lib_json/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Install\Program Files\CMake\bin\cmake.exe" "-SE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp" "-BE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild" --check-stamp-file "E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/src/lib_json/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CMakeConfigurableFile.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cxx.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckStructHasMember.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.c.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\CMakeFiles\CheckTypeSize\LCONV_SIZE.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\src\lib_json\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp/src/lib_json/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Install\Program Files\CMake\bin\cmake.exe" "-SE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp" "-BE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild" --check-stamp-file "E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/src/lib_json/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CMakeConfigurableFile.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cxx.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckStructHasMember.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.c.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\CMakeFiles\CheckTypeSize\LCONV_SIZE.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\src\lib_json\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp/src/lib_json/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Install\Program Files\CMake\bin\cmake.exe" "-SE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp" "-BE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild" --check-stamp-file "E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/src/lib_json/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CMakeConfigurableFile.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cxx.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckStructHasMember.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.c.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\CMakeFiles\CheckTypeSize\LCONV_SIZE.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\src\lib_json\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp/src/lib_json/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Install\Program Files\CMake\bin\cmake.exe" "-SE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp" "-BE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild" --check-stamp-file "E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/src/lib_json/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CMakeConfigurableFile.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cxx.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckStructHasMember.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.c.in;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake;D:\Install\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\CMakeFiles\CheckTypeSize\LCONV_SIZE.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\src\lib_json\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\config.h" />
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\forwards.h" />
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\json_features.h" />
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\value.h" />
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\reader.h" />
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\version.h" />
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\writer.h" />
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\assertions.h" />
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_tool.h" />
+    <ClCompile Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_reader.cpp" />
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_valueiterator.inl" />
+    <ClCompile Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_value.cpp" />
+    <ClCompile Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_writer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncppBuild\ZERO_CHECK.vcxproj">
+      <Project>{DE88B2D7-116D-379D-9D5F-973B495654F3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

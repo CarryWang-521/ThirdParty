@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CMakeConfigurableFile.in
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckCXXSymbolExists.cmake
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cxx.in
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckStructHasMember.cmake
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckSymbolExists.cmake
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/CheckTypeSize.cmake
+D:/Install/Program Files/CMake/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake
+E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp/src/lib_json/CMakeLists.txt
+E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/CMakeFiles/CheckTypeSize/LCONV_SIZE.cpp

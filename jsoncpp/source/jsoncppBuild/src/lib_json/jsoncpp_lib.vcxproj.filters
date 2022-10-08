@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\config.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\forwards.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\json_features.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\value.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\reader.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\version.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\writer.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\include\json\assertions.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\json_valueiterator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\0. WorkSpace\Third-Party\jsoncpp\source\jsoncpp\src\lib_json\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CFAC9894-046D-3763-8057-96B65A56289E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public API">
+      <UniqueIdentifier>{F81885C7-5BB8-3F25-BC14-EC8376AAF45F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{44ABE67F-C3DF-3BD8-BB70-6EAD971679B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^E:\0. WORKSPACE\THIRD-PARTY\JSONCPP\SOURCE\JSONCPP\SRC\LIB_JSON\CMAKELISTS.TXT
+setlocal
+"D:\Install\Program Files\CMake\bin\cmake.exe" "-SE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncpp" "-BE:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild" --check-stamp-file "E:/0. WorkSpace/Third-Party/jsoncpp/source/jsoncppBuild/src/lib_json/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,5 @@
+﻿D:\Install\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Sqlite3StaicLibPro.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  shell.c
+  sqlite3.c
+  正在生成代码...
+  Sqlite3StaicLibPro.vcxproj -> E:\0. WorkSpace\Third-Party\sqlite3\StaticLib\Project\Sqlite3StaicLibPro\Debug\Win32\sqlite3.lib
